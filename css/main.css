@@ -2,3 +2,23 @@
 @import "css/normalize.css";
 
 /* stuff */
+
+body{
+	font: normal 14px 'Times New Roman', Arial, sans-serif;
+	color: #999;
+	background: #f1f1f1;
+}
+
+.wrap{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.task-list{
+	width: 80%;
+	min-height: 300px;
+	background: #fff;
+	box-shadow: 2px 2px 8px #ddd;
+	margin-top: 40px;
+	padding: 22px 6%;
+}
