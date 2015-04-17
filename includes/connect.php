@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
 if ($mysqli->connect_error) {
 	die('The character dun did died scrub (' . $mysqli->connecterrno . ')'
 	. $mysqli->connect_error);
